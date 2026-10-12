@@ -14,7 +14,7 @@ The connector is hecigo's hosted MCP server at `https://ads.hecigo.com/mcp`: sig
 
 ## Install
 
-**Claude on the web, Desktop, mobile and Cowork:** open **Customize → Plugins**, choose **Add → Add marketplace**, enter `hecigo/ads-insights-plugin`, install **Ads Insights**, then connect it from the plugin's **Connectors** tab. Skills need **Code execution and file creation** turned on under **Settings → Capabilities**.
+**Claude on the web, Desktop, mobile and Cowork:** open **Customize → Plugins**, choose **Add → Add marketplace → Add from a repository**, enter `hecigo/ads-insights-plugin` and choose **Sync**, then **Add** Ads Insights. If the connector is not connected yet, connect it from the plugin's **Connectors** tab. Skills need **Cloud code execution and file creation** turned on under **Settings → Capabilities**.
 
 **Claude Code:**
 
