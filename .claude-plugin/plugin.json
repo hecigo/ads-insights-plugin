@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "ads-insights",
+  "displayName": "Ads Insights for Meta Ads, Google Ads and TikTok Ads",
+  "version": "0.2.4",
+  "description": "Read-only advertising reporting across Meta Ads, Google Ads and TikTok Ads through hecigo's hosted MCP server: performance with conversion value and ROAS, campaign settings and real targets, search terms and Performance Max. Includes skills for a weekly report, ROAS against target, search term clean-up, a Performance Max audit and a Meta cost diagnosis for sellers in Vietnam.",
+  "mcpServers": {
+    "ads-insights": {
+      "type": "http",
+      "url": "https://ads.hecigo.com/mcp"
+    }
+  },
+  "author": {
+    "name": "hecigo",
+    "email": "hi@hecigo.com",
+    "url": "https://hecigo.com"
+  },
+  "homepage": "https://ads.hecigo.com/guide#bo-skill",
+  "repository": "https://github.com/hecigo/ads-insights-plugin",
+  "license": "MIT",
+  "keywords": [
+    "ads",
+    "meta-ads",
+    "google-ads",
+    "tiktok-ads",
+    "roas",
+    "reporting",
+    "mcp"
+  ]
+}
