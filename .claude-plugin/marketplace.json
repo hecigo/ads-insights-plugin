@@ -8,7 +8,7 @@
   },
   "plugins": [
     {
-      "name": "ads-insights",
+      "name": "hecigo-ads-insights",
       "source": "./",
       "description": "Read-only advertising reporting across Meta Ads, Google Ads and TikTok Ads, with skills for weekly reports, ROAS against target, search term clean-up, Performance Max audits and a Meta cost diagnosis for sellers in Vietnam."
     }

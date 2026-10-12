@@ -1,8 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
-  "name": "ads-insights",
-  "displayName": "Ads Insights for Meta Ads, Google Ads and TikTok Ads",
-  "version": "0.2.4",
+  "name": "hecigo-ads-insights",
+  "displayName": "hecigo Ads Insights",
+  "version": "0.2.5",
   "description": "Read-only advertising reporting across Meta Ads, Google Ads and TikTok Ads through hecigo's hosted MCP server: performance with conversion value and ROAS, campaign settings and real targets, search terms and Performance Max. Includes skills for a weekly report, ROAS against target, search term clean-up, a Performance Max audit and a Meta cost diagnosis for sellers in Vietnam.",
   "mcpServers": {
     "ads-insights": {
