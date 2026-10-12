@@ -1,5 +1,4 @@
 {
-  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "hecigo-ads-insights",
   "displayName": "hecigo Ads Insights",
   "version": "0.2.5",
