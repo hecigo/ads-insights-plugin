@@ -1,6 +1,6 @@
 # hecigo Ads Insights for Claude
 
-Skills and a read-only connector for Meta Ads, Google Ads and TikTok Ads, from [hecigo](https://hecigo.com). Version 0.2.5.
+Skills and a read-only connector for Meta Ads, Google Ads and TikTok Ads, from [hecigo](https://hecigo.com). Version 0.2.6.
 
 The connector is hecigo's hosted MCP server at `https://ads.hecigo.com/mcp`: sign in with Google when asked, then connect your ad accounts. It only reads; it cannot change campaigns, budgets or ads.
 
