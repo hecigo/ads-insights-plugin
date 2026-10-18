@@ -1,8 +1,8 @@
 {
   "name": "hecigo-ads-insights",
   "displayName": "hecigo Ads Insights",
-  "version": "0.2.7",
-  "description": "Read-only advertising reporting across Meta Ads, Google Ads and TikTok Ads through hecigo's hosted MCP server: performance with conversion value and ROAS, campaign settings and real targets, search terms and Performance Max. Includes skills for a weekly report, ROAS against target, search term clean-up, a Performance Max audit and a Meta cost diagnosis for sellers in Vietnam.",
+  "version": "0.2.9",
+  "description": "Advertising reporting across Meta Ads, Google Ads and TikTok Ads through hecigo's hosted MCP server, reading by default: performance with conversion value and ROAS, campaign settings and real targets, search terms, Performance Max and Facebook Page insights. Budget changes exist only in a workspace given the write scope, through a plan you approve. Includes skills for a weekly report, ROAS against target, search term clean-up, a Performance Max audit, a Meta cost diagnosis for sellers in Vietnam and safe budget changes.",
   "mcpServers": {
     "ads-insights": {
       "type": "http",

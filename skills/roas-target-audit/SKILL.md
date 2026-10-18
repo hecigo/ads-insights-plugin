@@ -26,4 +26,4 @@ A table: campaign, strategy, target, actual, gap in percent, spend. Then:
 - `targetRoas` is a multiple: 0.23 means 23%, 2.2 means 220%. Show both forms.
 - A portfolio strategy's target applies to every campaign in it; say which campaigns share it.
 - Under 30 conversions in the window, call the comparison unreliable rather than drawing a conclusion.
-- Write in the person's language. This connector only reads; suggest target changes, never claim to make them.
+- Write in the person's language. This skill only recommends; suggest target changes, never claim to make them. A budget change is a separate step: the budget-adjust skill, only in a workspace given the write scope.

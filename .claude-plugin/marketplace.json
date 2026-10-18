@@ -1,7 +1,7 @@
 {
   "$schema": "https://code.claude.com/schemas/marketplace.json",
   "name": "hecigo",
-  "description": "hecigo's plugins for Claude: read-only ad reporting across Meta Ads, Google Ads and TikTok Ads.",
+  "description": "hecigo's plugins for Claude: ad reporting across Meta Ads, Google Ads and TikTok Ads, reading by default.",
   "owner": {
     "name": "hecigo",
     "url": "https://hecigo.com"
@@ -10,7 +10,7 @@
     {
       "name": "hecigo-ads-insights",
       "source": "./",
-      "description": "Read-only advertising reporting across Meta Ads, Google Ads and TikTok Ads, with skills for weekly reports, ROAS against target, search term clean-up, Performance Max audits and a Meta cost diagnosis for sellers in Vietnam."
+      "description": "Advertising reporting across Meta Ads, Google Ads and TikTok Ads, reading by default, with skills for weekly reports, ROAS against target, search term clean-up, Performance Max audits, a Meta cost diagnosis for sellers in Vietnam and safe budget changes (only in a workspace given the write scope)."
     }
   ]
 }

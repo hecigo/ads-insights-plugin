@@ -1,11 +1,12 @@
 # hecigo Ads Insights for Claude
 
-Skills and a read-only connector for Meta Ads, Google Ads and TikTok Ads, from [hecigo](https://hecigo.com). Version 0.2.7.
+Skills and a connector for Meta Ads, Google Ads and TikTok Ads, from [hecigo](https://hecigo.com). Version 0.2.9.
 
-The connector is hecigo's hosted MCP server at `https://ads.hecigo.com/mcp`: sign in with Google when asked, then connect your ad accounts. It only reads; it cannot change campaigns, budgets or ads.
+The connector is hecigo's hosted MCP server at `https://ads.hecigo.com/mcp`: sign in with Google when asked, then connect your ad accounts. It reads by default. Only a workspace given the write scope has two budget tools, which change a budget only in two steps (a plan, then an apply of that exact plan), within a limit per change and per 24 hours; the assistant is instructed to ask you before it applies, but the server cannot check that; campaigns are never created, paused or deleted.
 
 ## Skills
 
+- `budget-adjust`: Change the daily or lifetime budget of one campaign or ad set safely, in two steps, using Ads Insights.
 - `meta-vn-diagnosis`: Diagnose why Meta Ads cost per result went up and decide whether to scale, hold, fix or stop each campaign or ad set, for sellers in Vietnam, including shops that sell in the Messenger inbox.
 - `performance-max-audit`: Audit Google Performance Max campaigns below the campaign level: asset groups, ad strength, assets rated low, audience signals and search themes, using Ads Insights.
 - `roas-target-audit`: Compare each campaign's configured target ROAS or target CPA with its actual results, using Ads Insights settings and performance.
@@ -27,7 +28,7 @@ Step by step, in Vietnamese and English: [the guide](https://ads.hecigo.com/guid
 
 ## Data and privacy
 
-The skills are written instructions; they run nothing on your machine and send nothing anywhere themselves. The plugin declares one connector, hecigo's MCP server at `https://ads.hecigo.com/mcp`. When a skill asks it for numbers, that server reads the Meta Marketing API, Google Ads API, TikTok Business API, Google Analytics Data API or Search Console API with the access you granted on each platform's own consent screen, and returns the figures to Claude. Every tool only reads. hecigo keeps your sign-in email and sealed access tokens, not your reporting numbers, which are fetched when you ask. Details, retention and deletion: [hecigo's privacy policy](https://hecigo.com/privacy/).
+The skills are written instructions; they run nothing on your machine and send nothing anywhere themselves. The plugin declares one connector, hecigo's MCP server at `https://ads.hecigo.com/mcp`. When a skill asks it for numbers, that server reads the Meta Marketing API, Google Ads API, TikTok Business API, Google Analytics Data API or Search Console API with the access you granted on each platform's own consent screen, and returns the figures to Claude. The tools that read change nothing; the two budget tools exist only in a workspace given the write scope. hecigo keeps your sign-in email and sealed access tokens, not your reporting numbers, which are fetched when you ask. Details, retention and deletion: [hecigo's privacy policy](https://hecigo.com/privacy/).
 
 ## About this repository
 

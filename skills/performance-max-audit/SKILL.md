@@ -26,4 +26,4 @@ End with the three changes most likely to matter, each tied to a number.
 
 - `LEARNING` and `PENDING` labels mean too little data, not a bad asset.
 - Ad strength is Google's completeness score, not a result; weigh ROAS first.
-- Google only. Write in the person's language. This connector only reads: recommend, never claim a change was made.
+- Google only. Write in the person's language. This skill only recommends: never claim a change was made. A budget change is a separate step: the budget-adjust skill, only in a workspace given the write scope.

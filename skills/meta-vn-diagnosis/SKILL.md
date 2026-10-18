@@ -92,4 +92,4 @@ These thresholds are this skill's defaults, not Meta rules. If the person gives 
 - Meta only. For Google or TikTok use their own reports; never add results across platforms.
 - Keep the account currency. VND has no decimals: write 1.527 ₫ in Vietnamese and ₫1,527 in English.
 - Write in the language the person is using.
-- This connector only reads. Recommend changes; never say they were made.
+- This skill only recommends. Never say a change was made. A budget change is a separate step: the budget-adjust skill, only in a workspace given the write scope.

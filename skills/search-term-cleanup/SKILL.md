@@ -23,4 +23,4 @@ description: Find Google Ads search terms that spend without converting and prop
 - Terms with status `EXCLUDED` are already negatives; leave them out of the proposal.
 - A term with few clicks and no conversion is not proven bad: mark anything under 10 clicks as "watch", not "exclude".
 - Performance Max has no term list; if only search categories come back, say so and review the categories instead.
-- Google only. Write in the person's language. This connector only reads: propose the list, never claim it was added.
+- Google only. Write in the person's language. This skill only recommends: propose the list, never claim it was added. A budget change is a separate step: the budget-adjust skill, only in a workspace given the write scope.

@@ -29,4 +29,4 @@ A report an owner can read in two minutes and act on. Numbers come only from Ads
 - Conversations started are not sales and not leads. Never add them to `conversions`, and never compute ROAS or a cost per sale from them. The number of orders they closed lives in the shop's own sales system, not in this connector: say so when the person asks what the conversations sold.
 - Keep each platform's currency. Never add different currencies into one total.
 - Write in the language the person is using.
-- This connector only reads. Recommend changes; never say they were made.
+- This skill only recommends. Never say a change was made. A budget change is a separate step: the budget-adjust skill, only in a workspace given the write scope.
