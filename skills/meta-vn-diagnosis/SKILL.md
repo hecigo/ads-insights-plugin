@@ -22,6 +22,7 @@ The answer an owner wants: why it got more expensive, which part is to blame, an
    - for inbox shops, `actionTypes: ["onsite_conversion.messaging_user_depth_2_message_send", "onsite_conversion.messaging_user_depth_3_message_send"]`: conversations where the person sent a second and a third message.
 5. `ads_insights` level `ad` for the last 14 full days with `byDay: true` and the same `metaFields` plus `quality_ranking`, `engagement_rate_ranking`, `conversion_rate_ranking`, and `metrics: ["frequency", "reach", "cpm"]` for the same 14 days without `byDay`. This is the fatigue check.
 6. If spend fell or an ad set spent nothing, `ads_delivery` before anything else.
+7. To find which audience drives a rise, `ads_insights` provider `meta`, the ad set in question, the same two periods with `compare: true` and `breakdown` set to `age`, `gender` or `region` (one per call; Meta has no city). It shows where spend and cost moved, not why. Meta may leave `results` out of a split (a note says so, and the column reads as not reported, never zero): judge by conversions or clicks then, and say so. Reach and people do not add up across segments, and TikTok and Google report region differently, so keep a platform's segments apart. Meta region names repeat across countries: when a comparison lists rows without a change because a name repeats, compare by country instead. If the answer says it is truncated, totals cover only the rows shown.
 
 ## Split the cost change
 

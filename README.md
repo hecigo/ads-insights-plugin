@@ -1,6 +1,6 @@
 # hecigo Ads Insights for Claude
 
-Skills and a connector for Meta Ads, Google Ads and TikTok Ads, from [hecigo](https://hecigo.com). Version 0.2.9.
+Skills and a connector for Meta Ads, Google Ads and TikTok Ads, from [hecigo](https://hecigo.com). Version 0.2.11.
 
 The connector is hecigo's hosted MCP server at `https://ads.hecigo.com/mcp`: sign in with Google when asked, then connect your ad accounts. It reads by default. Only a workspace given the write scope has two budget tools, which change a budget only in two steps (a plan, then an apply of that exact plan), within a limit per change and per 24 hours; the assistant is instructed to ask you before it applies, but the server cannot check that; campaigns are never created, paused or deleted.
 
